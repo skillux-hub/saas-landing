@@ -1,0 +1,16 @@
+/* SoftLand locked palette — extracted from assets/starter theme styles */
+:root {
+  --accent: #2d71a1;
+  --accent-deep: #274685;
+  --accent-teal: #3db3c5;
+  --accent-cyan: #1391a5;
+  --accent-hover: #3687c1;
+  --star: #FF8803;
+  --ink: #000000;
+  --muted: #9fa1a4;
+  --bg: #ffffff;
+  --line: #f2f2f2;
+  --display: "Poppins", sans-serif;
+  --body: "Roboto", sans-serif;
+  --radius: 4px;
+}

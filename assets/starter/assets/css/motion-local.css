@@ -1,0 +1,36 @@
+/* SoftLand / SaaS Landing motion modes */
+html[data-motion="off"] [data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+html[data-motion="off"] .swiper-wrapper {
+  transition-duration: 0ms !important;
+}
+html[data-motion="off"] .back-to-top {
+  transition: none !important;
+}
+html[data-motion="off"] .phone-1,
+html[data-motion="off"] .phone-2 {
+  animation: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-motion-mode="auto"] [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  html[data-motion-mode="auto"] {
+    scroll-behavior: auto;
+  }
+  html[data-motion-mode="auto"] .swiper-wrapper {
+    transition-duration: 0ms !important;
+  }
+}
+
+.softland-draft-note {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #6f6f6f;
+}
